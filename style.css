@@ -1,0 +1,114 @@
+
+body{
+  color: white;
+}
+.mainnav{
+  background-color: black;
+  color: white;
+}
+.navhead1{
+  color: white;
+}
+.navhead1:hover{
+  text-decoration: underline red;
+  transition: ease-in-out 0ms;
+  font-size: 20px;
+  color: white;
+}
+
+.fsd{
+  font-size: 50px;
+}
+.my{
+  font-size: 50px;
+
+}
+.fk{
+  font-size: 50px;
+
+}
+.devimg{
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.des{
+  text-align: center;
+  margin-top: 15%;
+}
+.abthead1{
+  font-size: 60px;
+}
+.abthead2{
+  text-align: justify;
+  font-size: 17px;
+}
+#abt{
+  margin-top: 10%;
+}
+.abtimg{
+}
+.cards{
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.cardx{
+  height: 400px;
+}
+.cardx:hover{
+  cursor: pointer;
+  transform: scale(1.01, 1.01);
+  transition: ease-in-out;
+}
+h1{
+  text-align: center;
+  margin-top: 10%;
+}
+.btn{
+  background-color: red;
+  border: 0px solid ;
+  color: black;
+  margin-top: 5px;
+}
+.btn:hover{
+  background-color: black;
+  color: red;
+  transform: scale(1.1, 1.1);
+  transition: ease-in-out;
+  
+}
+.contact{
+  margin-top: 10%;
+  text-align: left;
+}
+.download{
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: solid red 0px;
+}
+@media(max-width:768px){
+  .my, .fsd, .fk{
+    font-size: 20px;
+  }
+  .devimg{
+    height: 250px;
+    width: 200px;  
+  }
+  .desi{
+    text-align: center;
+  }
+  .abthead1{
+    font-size: 30px;
+  }
+  .abthead2{
+    font-size: 12px;
+    padding: 8px;
+  }
+  .card{
+    display: block;
+    margin-left: -50px;
+  }
+}
